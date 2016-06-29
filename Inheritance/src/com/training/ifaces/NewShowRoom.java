@@ -4,7 +4,7 @@ import com.training.ifaces.Automobile;
 public class NewShowRoom extends ShowRoom {
 
 	@Override
-	public Automobile getModel(int key) {
+	public Automobile getModel(final int key) {
 		// TODO Auto-generated method stub
 		
 		if(key==3)
